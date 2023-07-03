@@ -1,16 +1,10 @@
-async function fetchStories() {
-  const response = await fetch('http://localhost:3000/marketdata');
-  const stories = await response.json();
-  return stories;
-}
+import dummyData from '../(data)/marketdata/dummyData.json';
 
-const Stories = async () => {
-  const stories = await fetchStories();
-
+function Stories() {
   return (
     <div>
       <div className="flex flex-wrap xs:justify-center lg:justify-start  gap-3  overflow-hidden">
-        {stories.map((story) => (
+        {dummyData.map((story) => (
           <div
             key={story.id}
             className="rounded-md flex-none min-w-[200px] max-w-[20%] overflow-hidden"
@@ -35,5 +29,5 @@ const Stories = async () => {
       </div>
     </div>
   );
-};
+}
 export default Stories;

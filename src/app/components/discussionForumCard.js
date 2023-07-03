@@ -1,17 +1,10 @@
 import Image from 'next/image';
+import dummyData from '../(data)/discussiondata/dummyData.json';
 
-async function fetchCards() {
-  const response = await fetch('http://localhost:3000/discussiondata');
-  const cards = await response.json();
-  return cards;
-}
-
-const Cards = async () => {
-  const cards = await fetchCards();
-
+function Cards() {
   return (
     <div className="flex flex-col gap-3  overflow-y-auto">
-      {cards.map((card) => (
+      {dummyData.map((card) => (
         <div
           key={card.id}
           className="flex flex-col border rounded-md w-[100%]  shadow-md p-4 "
@@ -59,5 +52,5 @@ const Cards = async () => {
       ))}
     </div>
   );
-};
+}
 export default Cards;
