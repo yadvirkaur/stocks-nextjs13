@@ -5,11 +5,11 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import './globals.css';
 
-export const metadata = {
-  title: 'GIA Stocks',
-  description:
-    'Bringing Indian Corporates to Investors. An Investor Relations Company',
-};
+// export const metadata = {
+//   title: 'GIA Stocks',
+//   description:
+//     'Bringing Indian Corporates to Investors. An Investor Relations Company',
+// };
 
 export default function RootLayout({ children }) {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
