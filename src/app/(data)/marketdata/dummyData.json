@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "comment": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "/images/building1.jpg"
+  },
+  {
+    "id": 2,
+    "comment": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "/images/building2.jpg"
+  },
+  {
+    "id": 3,
+    "comment": " Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+    "img": "/images/building2.jpg"
+  },
+  {
+    "id": 4,
+    "comment": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "/images/building1.jpg"
+  },
+  {
+    "id": 5,
+    "comment": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "/images/building2.jpg"
+  },
+  {
+    "id": 6,
+    "comment": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+    "img": "/images/building1.jpg"
+  }
+  
+]
