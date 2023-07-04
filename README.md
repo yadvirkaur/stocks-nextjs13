@@ -1,4 +1,11 @@
-Link for visiting site: https://stocks-nextjs13.vercel.app/
+Website built using Next.js 13 and Tailwind CSS. Link for visiting site: https://stocks-nextjs13.vercel.app/
+
+![image](https://github.com/yadvirkaur/stocks-nextjs13/assets/4669545/a171a308-1494-421c-af75-ae66b9c16358)
+
+
+![image](https://github.com/yadvirkaur/stocks-nextjs13/assets/4669545/170f1d60-efb0-4c9e-b5db-50140f6eb513)
+
+<img width="526" alt="image" src="https://github.com/yadvirkaur/stocks-nextjs13/assets/4669545/66d3efc6-7837-4eb6-8414-54e3dade8718">
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
